@@ -18,8 +18,6 @@ sudo apt-get install -y \
     binutils-dev \
     cmake \
     flex \
-    g++-4.8 \
-    gcc-4.8 \
     git \
     libboost1.54-all-dev \
     libevent-dev \
@@ -31,9 +29,6 @@ sudo apt-get install -y \
     pkg-config \
     python-dev \
     ragel
-
-sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.8 50
-sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-4.8 50
 
 cd "$(dirname "$0")" || ( echo "cd fail"; exit 1 )
 
